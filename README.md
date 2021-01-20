@@ -40,7 +40,7 @@ etc.
 
 ## 3. Objetivos de aprendizaje
 
-Trabajando en parejas aprenderán a construir una aplicación web que interactuará
+Trabajando de manera individual aprenderán a construir una aplicación web que interactuará
 con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
 como tecnologías.
 
@@ -49,6 +49,8 @@ como tecnologías.
 * [ ] [Uso de HTML semántico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
 * [ ] Uso de selectores de CSS.
 * [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+
+
 
 ### DOM
 
@@ -85,6 +87,9 @@ como tecnologías.
 * [ ] Diseñar la aplicación pensando y entendiendo al usuario.
 * [ ] Crear prototipos para obtener feedback e iterar.
 * [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
+
+### PROTOTIPO ELABORADO EN FIGMA
+https://www.figma.com/proto/ZKKuVm8j49tN96AVJlWGNd/Untitled?node-id=0%3A3&scaling=min-zoom
 
 ## 4. Consideraciones generales
 
