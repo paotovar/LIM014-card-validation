@@ -89,7 +89,7 @@ como tecnologías.
 * [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
 
 ### PROTOTIPO ELABORADO EN FIGMA
-https://www.figma.com/proto/ZKKuVm8j49tN96AVJlWGNd/Untitled?node-id=0%3A3&scaling=min-zoom
+(https://www.figma.com/proto/ZKKuVm8j49tN96AVJlWGNd/Untitled?node-id=0%3A3&scaling=min-zoom)
 
 ## 4. Consideraciones generales
 
