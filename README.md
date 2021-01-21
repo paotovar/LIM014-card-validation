@@ -1,4 +1,4 @@
-# Tarjeta de crédito válida
+# Tarjeta de crédito válida 
 
 ## Índice
 
@@ -89,7 +89,7 @@ como tecnologías.
 * [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
 
 ### PROTOTIPO ELABORADO EN FIGMA
-(https://www.figma.com/proto/ZKKuVm8j49tN96AVJlWGNd/Untitled?node-id=0%3A3&scaling=min-zoom)
+https://www.figma.com/proto/ZKKuVm8j49tN96AVJlWGNd/Untitled?node-id=0%3A3&scaling=min-zoom
 
 ## 4. Consideraciones generales
 
@@ -107,9 +107,15 @@ Usa solo caracteres numéricos (dígitos) en la tarjeta a validar [0-9].
 En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
 para definir el producto final a nivel de experiencia y de interfaz.
 
-* Quiénes son los principales usuarios de producto.
+* Quiénes son los principales usuarios de producto
+Las tarjetas de crédito se han convertido en una herramienta de pago habitual mayoría de personas y ha cambiado por completo la gestión de las finanzas personales su uso ha aumentado con el paso de los años los usuarios que ha definido son clientes entre 26-50 años,los cuales tienen la capacidad de pedir prestada una cierta cantidad de dinero.
+
 * Cuáles son los objetivos de estos usuarios en relación con tu producto.
+Los usuarios esperan la verificación de la validez de la tarjeta de crédito; la verificación de la identidad del usuario; de ser necesario la verificación de la firma del usuario en la orden de pago con la que figura en su tarjeta de crédito,en pocas palabras que la validación de su tarjeta sea segura.
+
+
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
+Se está creando un proyecto de validación  y enmascaramiento de su número de tarjeta de crédito.
 
 ### Interfaz de usuario (UI)
 
@@ -142,8 +148,9 @@ Estos puntos los presentarás en el `README.md`.
 
 Debe contener lo siguiente:
 
-* Un título con el nombre de tu proyecto.
+* Un título con el nombre de tu proyecto. PauPal CREDIC CARD
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+El proyecto consiste en validar el numero de la tarjeta de crédito y el enmascaramiento de este.
 * La imagen final de tu proyecto.
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
