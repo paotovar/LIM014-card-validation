@@ -160,6 +160,10 @@ El proyecto consiste en validar el numero de la tarjeta de crédito y el enmasca
   3. Luego colocarás la foto de tu primer prototipo en papel.
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
   5. Imagen del prototipo final.
+  ![Prototipo imagen 1](http://url/to/img/prototipo1.png)
+  ![Prototipo imagen 2](http://url/to/img/prototipo2.png)
+
+
 
 #### Visualmente (HTML y CSS)
 
