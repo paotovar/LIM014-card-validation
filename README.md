@@ -29,8 +29,8 @@ la suma de sus dígitos finales es un múltiplo de 10.
 ## 2. Resumen del proyecto
 
 En este proyecto se construye una aplicación web que le permita a un
-usuario validar el número de una tarjeta de crédito. Además, tendrás que
-implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos
+usuario validar el número de una tarjeta de crédito. Además, se implementa la 
+funcionalidad para ocultar todos los dígitos de una tarjeta menos
 los últimos cuatro.
 
 
@@ -84,10 +84,9 @@ Construir  una aplicación web  en la que se  interactúa con el usuario final a
 
 ## 4. Consideraciones generales
 
-* El proyecto es individual. Recuerda que cada una aprende a diferente ritmo.
+* El proyecto es individual,cada una aprende a diferente ritmo.
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
-  te preocupes, lo aprenderás durante este proyecto.
+  interfaz será desplegada usando GitHub pages. 
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
@@ -120,7 +119,7 @@ Antes de iniciar a codear, debes entender el problema que quieres solucionar y
 cómo tu aplicación lo soluciona.
 
 * Se trabajó el primer prototipo con papel y lápiz (blanco y negro).
-* Luego se validó esta solución con una compañera (pedir feedback).
+* Luego se validó esta solución con una compañera (se pidió feedback).
 * Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un
   nuevo prototipo usando alguna herramienta para diseño de prototipos
   ([Balsamiq](https://balsamiq.com/), [Figma](https://www.figma.com/),
@@ -135,8 +134,8 @@ Estos puntos los presentarás en el `README.md`.
 
 Debe contener lo siguiente:
 
-* Un título del proyecto: PauPal CREDIT CARD
-* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+* Título del proyecto: PauPal CREDIT CARD
+* Resumen:
 En este proyecto se construye una aplicación web que le permita a un
 usuario validar el número de una tarjeta de crédito. Además, tendrás que
 implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos
@@ -145,18 +144,18 @@ los últimos cuatro.
 
 
 * Investigación UX:
-  1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
+  1. Usuarios y los objetivos en relación con el producto.
     Las tarjetas de crédito se han convertido en una herramienta de pago habitual mayoría de personas y ha cambiado por completo la gestión de las finanzas personales su uso ha aumentado con el paso de los años los usuarios que ha definido son clientes entre 26-50 años,los cuales tienen la capacidad de pedir prestada una cierta cantidad de dinero.
 
-  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios.
-    Los usuarios esperan la verificación de la validez de la tarjeta de crédito; la verificación de la identidad del usuario; de ser necesario la verificación de la firma del usuario en la orden de pago con la que figura en su tarjeta de crédito,en pocas palabras que la validación de su tarjeta sea segura.
+  2. ¿cómo el producto soluciona los problemas/necesidades de dichos
+    usuarios?
+    Los usuarios esperan la verificación de la validez de la tarjeta de crédito; la verificación de la identidad del usuario; de ser necesario la verificación de la firma del usuario en la orden de pago 
+    con la que figura en su tarjeta de crédito,en pocas palabras que la validación de su tarjeta sea segura.
   
   
-  3. Luego colocarás la foto de tu primer prototipo en papel.
+  3. Primer prototipo en papel.
 
-  ![Prototipo en papel](./src/img/mano alzada.png) 
+  ![Prototipo en papel](./src/img/manoalzada.png) 
   
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
   Las mejoras a realizar es en el diseño CSS,mejorar la funcionalidad de mis input,pero el proyecto cumple con las condiciones principales del paquetado del proyecto.

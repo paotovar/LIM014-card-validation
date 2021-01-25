@@ -1,0 +1,80 @@
+body{
+width: 600px;
+height: 600px;
+background-color: rgb(174, 176, 177);
+font-weight: 500;
+font-size: 20px;
+}
+
+header {
+    color: rgba(19, 19, 148, 0.932);
+    font-size: 50px;
+    font-style: bold;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    font-size: 50px;
+  }
+
+  .imgLogo{
+    height: 50%;
+     width: 120px;
+     float:left;
+    border-radius:15px;
+  }
+
+
+  .imgVisa{
+    height: 200px;
+     width: 50%;
+     float:left;
+    border-radius:15px;
+  }
+
+  
+  
+.secondColumn{
+  width: 20%; /* Este será el ancho que tendrá tu columna */
+  float:right;/* Aquí determinas de lado quieres quede esta "columna" */
+  font-weight: 500;
+  font-size: 20px;
+
+}
+  
+
+.footer {
+    width:200px;
+    height:200px;
+    }
+    
+.secondContainer{
+width: 250px;
+height: 250px;
+background-color: rgb(174, 176, 177);
+
+}
+
+#pay{
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #1883ba;
+  border-radius: 6px;
+  border: 2px solid #0016b0;
+}
+#pay:hover{
+  color: #1883ba;
+  background-color: #ffffff;
+  
+}
+
+#cardNumber,#expiry,#cardCode,#name{
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(251, 253, 255);
+    outline: none;
+    border: 1px solid rgb(30, 172, 243);
+}
