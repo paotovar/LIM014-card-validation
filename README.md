@@ -28,28 +28,21 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 ## 2. Resumen del proyecto
 
-En este proyecto tendrás que construir una aplicación web que le permita a un
+En este proyecto se construye una aplicación web que le permita a un
 usuario validar el número de una tarjeta de crédito. Además, tendrás que
 implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos
 los últimos cuatro.
 
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
-experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?)
-etc.
 
 ## 3. Objetivos de aprendizaje
 
-Trabajando de manera individual aprenderán a construir una aplicación web que interactuará
-con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías.
+Construir  una aplicación web  en la que se  interactúa con el usuario final a través del navegador, utilizando HTML, CSS y JavaScript.
 
 ### HTML y CSS
 
 * [ ] [Uso de HTML semántico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
 * [ ] Uso de selectores de CSS.
 * [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
-
 
 
 ### DOM
@@ -88,8 +81,6 @@ como tecnologías.
 * [ ] Crear prototipos para obtener feedback e iterar.
 * [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
 
-### PROTOTIPO ELABORADO EN FIGMA
-https://www.figma.com/proto/ZKKuVm8j49tN96AVJlWGNd/Untitled?node-id=0%3A3&scaling=min-zoom
 
 ## 4. Consideraciones generales
 
@@ -104,18 +95,14 @@ Usa solo caracteres numéricos (dígitos) en la tarjeta a validar [0-9].
 
 ### Definición del producto
 
-En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
+En el `README.md`, se validó cómo se pensó en los usuarios y cuál fue el proceso
 para definir el producto final a nivel de experiencia y de interfaz.
 
-* Quiénes son los principales usuarios de producto
-Las tarjetas de crédito se han convertido en una herramienta de pago habitual mayoría de personas y ha cambiado por completo la gestión de las finanzas personales su uso ha aumentado con el paso de los años los usuarios que ha definido son clientes entre 26-50 años,los cuales tienen la capacidad de pedir prestada una cierta cantidad de dinero.
+* Quiénes son los principales usuarios de producto.
 
 * Cuáles son los objetivos de estos usuarios en relación con tu producto.
-Los usuarios esperan la verificación de la validez de la tarjeta de crédito; la verificación de la identidad del usuario; de ser necesario la verificación de la firma del usuario en la orden de pago con la que figura en su tarjeta de crédito,en pocas palabras que la validación de su tarjeta sea segura.
-
 
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
-Se está creando un proyecto de validación  y enmascaramiento de su número de tarjeta de crédito.
 
 ### Interfaz de usuario (UI)
 
@@ -132,8 +119,8 @@ La interfaz debe permitir al usuario:
 Antes de iniciar a codear, debes entender el problema que quieres solucionar y
 cómo tu aplicación lo soluciona.
 
-* Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
-* Luego valida esta solución con una compañera (pedir feedback).
+* Se trabajó el primer prototipo con papel y lápiz (blanco y negro).
+* Luego se validó esta solución con una compañera (pedir feedback).
 * Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un
   nuevo prototipo usando alguna herramienta para diseño de prototipos
   ([Balsamiq](https://balsamiq.com/), [Figma](https://www.figma.com/),
@@ -148,30 +135,46 @@ Estos puntos los presentarás en el `README.md`.
 
 Debe contener lo siguiente:
 
-* Un título con el nombre de tu proyecto. PauPal CREDIC CARD
+* Un título del proyecto: PauPal CREDIT CARD
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-El proyecto consiste en validar el numero de la tarjeta de crédito y el enmascaramiento de este.
+En este proyecto se construye una aplicación web que le permita a un
+usuario validar el número de una tarjeta de crédito. Además, tendrás que
+implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos
+los últimos cuatro.
 * La imagen final de tu proyecto.
+
+
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
+    Las tarjetas de crédito se han convertido en una herramienta de pago habitual mayoría de personas y ha cambiado por completo la gestión de las finanzas personales su uso ha aumentado con el paso de los años los usuarios que ha definido son clientes entre 26-50 años,los cuales tienen la capacidad de pedir prestada una cierta cantidad de dinero.
+
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
+    Los usuarios esperan la verificación de la validez de la tarjeta de crédito; la verificación de la identidad del usuario; de ser necesario la verificación de la firma del usuario en la orden de pago con la que figura en su tarjeta de crédito,en pocas palabras que la validación de su tarjeta sea segura.
+  
+  
   3. Luego colocarás la foto de tu primer prototipo en papel.
+
+  ![Prototipo en papel](./src/img/mano alzada.png) 
+  
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+  Las mejoras a realizar es en el diseño CSS,mejorar la funcionalidad de mis input,pero el proyecto cumple con las condiciones principales del paquetado del proyecto.
+
+
   5. Imagen del prototipo final.
-  ![Prototipo imagen 1](img/prototipo1.png)
-  ![Prototipo imagen 2](http://url/to/prototipo2.png)
+  ![Prototipo imagen 1](./src/img/prototipo1.png) 
+  ![Prototipo imagen 2](./src/img/prototipo1.png)
 
 
 
 #### Visualmente (HTML y CSS)
 
-Deberás maquetar de forma exacta el prototipo final que hiciste en la herramienta
-de diseño de prototipos que escogiste utilizando HTML y CSS. En este momento elegirás
+Se maquetó de forma exacta el prototipo final con la herramienta
+de diseño de prototipos (Figma ) utilizando HTML y CSS. En este momento elegí
 los colores, tipo de fuente, etc a usar.
 
-A continuación describimos los archivos que utilizarás:
+A continuación se describe los archivos que se utilizaron:
 
 ##### `src/index.html`
 
@@ -185,23 +188,21 @@ de cero:
 
 ##### `src/style.css`
 
-Este archivo debe contener las reglas de estilo. Queremos que escribas tus
-propias reglas, por eso NO está permitido el uso de frameworks de CSS
-(Bootstrap, materialize, etc).
+Este archivo contiene las reglas de estilo. 
 
 #### Funcionalmente (JavaScript - pruebas unitarias)
 
 * La lógica del proyecto debe estar implementada completamente en JavaScript.
-* En este proyecto NO está permitido usar librerías o frameworks, sólo JavaScript
+* En este proyecto NO se ha utilizado está librerías o frameworks, sólo JavaScript
 puro también conocido como Vanilla JavaScript.
-* No se debe utilizar la _pseudo-variable_ `this`.
+* No se debe utilizó la _pseudo-variable_ `this`.
 
-Vas a tener 2 archivos JavaScript separando responsabilidades, a continuación
-indicamos qué harás en cada archivo:
+Se tienen 2 archivos JavaScript separando responsabilidades, a continuación
+se indica que se hará en cada archivo:
 
 ##### `src/validator.js`
 
-Acá escribirás las funciones necesarias para que el usuario pueda verificar la
+Acá se escribe las funciones necesarias para que el usuario pueda verificar la
 tarjeta de crédito y ocultar los dígitos de su número de tarjeta.
 Esta función debe ser pura e independiente del DOM.
 
@@ -230,14 +231,14 @@ cuando el `string` sea de menor longitud.
 
 ##### `src/index.js`
 
-Acá escribirás todo el código que tenga que ver con la interacción del DOM
+Acá se escribe todo el código que tenga que ver con la interacción del DOM
 (seleccionar, actualizar y manipular elementos del DOM y eventos).
-Es decir, en este archivo deberás invocar las funciones `isValid` y `maskify`
+Es decir, en este archivo se invoca las funciones `isValid` y `maskify`
 según sea necesario para actualizar el resultado en la pantalla (UI).
 
 ##### `test/validator.spec.js`
 
-En este archivo tendrás que completar las pruebas unitarias de las funciones
+En este archivo se completa  las pruebas unitarias de las funciones
 `validator.isValid(creditCardNumber)` y `validator.maskify(creditCardNumber)`
 implementadas en `validator.js` utilizando [Jest](https://jestjs.io/es-ES/).
 Tus pruebas unitarias deben dar un 70% en _coverage_ (cobertura),
