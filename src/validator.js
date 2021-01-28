@@ -13,33 +13,33 @@ const validator = {
     
 
     for (let i = 1; i < stringInvertido.length; i += 2) {
-      /*console.log("numero par " + stringInvertido.charAt(i));*/
+      
       let numeroPar = parseInt(stringInvertido.charAt(i) * 2);
-      /*console.log("numero " + numeroPar);*/
+      
 
       if (numeroPar >= 10) {
         let numeroString = numeroPar.toString(); //'10'
         sumaDigitos =
           parseInt(numeroString.charAt(0)) + parseInt(numeroString.charAt(1));
-        /*console.log("suma " + sumaDigitos);*/
+        
 
         sumaTotal = sumaTotal + sumaDigitos;
-        /*console.log("sumaTotal " + sumaTotal);*/
+        
       } else {
         sumaTotal = sumaTotal + numeroPar;
       }
     }
 
     for (let i = 0; i < stringInvertido.length; i += 2) {
-     /* console.log("numero  inpar " + stringInvertido.charAt(i));*/
+     
       let numero = parseInt(stringInvertido.charAt(i));
 
       sumaTotal = sumaTotal + numero;
-     /* console.log("sumaTotal " + sumaTotal);*/
+     
     }
 
     
-    /*console.log("suma final " + sumaTotal);*/
+    
 
     if (sumaTotal % 10 == 0) {
       validador = true;
