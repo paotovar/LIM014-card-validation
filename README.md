@@ -138,8 +138,8 @@ En este proyecto se construye una aplicación web que le permita a un
 usuario validar el número de una tarjeta de crédito. Además, tendrás que
 implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos
 los últimos cuatro.
-* La imagen final de tu proyecto.
-
+* La imagen final de mi proyecto.
+ ![Imagen final de mi proyecto](./src/img/proyectofinal.png)
 
 * Investigación UX:
   1. Usuarios y los objetivos en relación con el producto.
