@@ -132,8 +132,6 @@ Estos puntos los presentarás en el `README.md`.
 
 ##### `README.md`
 
-Debe contener lo siguiente:
-
 * Título del proyecto: PauPal CREDIT CARD
 * Resumen:
 En este proyecto se construye una aplicación web que le permita a un
