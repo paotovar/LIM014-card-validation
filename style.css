@@ -1,0 +1,113 @@
+body{
+width: 700px;
+height: 470px;
+background-color:  rgb(190, 193, 194);
+/*font-weight: 500;
+font-size: 20px;*/
+background-position: center;
+margin-left: 20%;/*espacio en el lado izquierdo*/
+padding-top: 5%;/*el tope del cuadro al texto hacia arriba*/
+padding-bottom: 5%;
+border-radius:20px;
+}
+
+.firstContainer{
+  width: 700px;
+height: 470px;
+}
+
+html{
+background:url('img/fondo.png');
+}
+
+
+header {
+    color: rgba(19, 19, 148, 0.932);
+    font-size: 55px;/*tamaño de la letra*/
+    font-style: bold;/*peso*/
+    text-align:left;
+    font-family: 'Segoe UI';
+    font-weight: 600;/**/
+    padding-left: 130px;
+    }
+   
+
+    main{
+    margin-left: 5%;
+    font-weight: 500;
+    font-size: 20px;}
+
+  .imgLogo{
+    height: 50%;
+     width: 120px;
+     float:left;
+    border-radius:15px;
+  }
+
+
+  .imgVisa{
+    height: 200px;
+     width: 50%;
+     float:left;
+    border-radius:15px;
+    margin-left: 5%;
+  }
+
+  
+  
+.secondColumn{
+  width: 20%; /* Este será el ancho que tendrá tu columna */
+  float:right;/* Aquí determinas de lado quieres quede esta "columna" */
+  font-weight: 500;
+  font-size: 20px;
+  margin-right: 20%;
+
+}
+  
+
+ footer{
+
+  color: rgb(29, 14, 241);
+  text-align:center;
+  background-position: center;
+
+ }
+
+    
+.secondContainer{
+  width: 700px;
+  height: 470px;
+  background-color:  rgb(190, 193, 194);
+  background-position: center;
+  border-radius:20px;
+  text-align: center;
+  
+  }
+
+#pay,#back{
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #1883ba;
+  border-radius: 6px;
+  border: 2px solid #0016b0;
+  
+}
+#pay:hover{
+  color: #1883ba;
+  background-color: #ffffff;
+  
+}
+
+#cardNumber,#cardCode,#name,#expiry{
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(251, 253, 255);
+    outline: none;
+    border: 1px solid rgb(30, 172, 243);
+}
+
+

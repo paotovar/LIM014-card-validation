@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+ <div id="firstContainer" class="firstContainer" >
+ <div> <img src="img/logo.jpg" alt="logo" width="90" height="75"  class="imgLogo"></div>
+    <header>PauPal-CreditCard</header>
+    <br>
+    <main>Pay with your credit card via paupal webside payments Pro.</main>
+    <br>
+  <div><img src="img/visa.jpg" alt="visa" class="imgVisa" ></div>
+
+
+<div  class="secondColumn">
+<form> 
+<div class="cardNumber">
+<label for="cardNumber">Card Number*</label>
+<input type="text" id="cardNumber"  minlength="15" maxlength="16" required autocomplete="off" 
+placeholder="only numeric characters"
+onkeypress="return (event.charCode >= 48 && event.charCode <= 57 &&   event.charCode != 32)" min="1"  >
+<!--numeros no espacios-->
+</div>
+<br>
+<div>
+<label for="expiry">Expiry(MM/YY)*</label>
+<input type="month" id="expiry" 
+      min="2021-01" max="2030-12" required
+           pattern="[0-9]{4}-[0-9]{2}">
+</div>
+<br>
+<div>
+<label for="cardCode">Card Code*</label>
+<input type="text" id="cardCode"  placeholder="123" maxlength="3" minlength="3"  required autocomplete="off" 
+onkeypress="return (event.charCode >= 48 && event.charCode <= 57 &&   event.charCode != 32)" min="1" >
+</div>
+<br>
+<div>
+<label for="name">Name*</label>
+<input type="text" id="name"   placeholder="Name"  pattern="^[A-Za-z]+$" maxlength="10" >
+</div>
+<br>
+<div>
+<input type="submit" id="pay" value="Pay"  >
+</div>
+</form>
+</div>
+</div>
+
+
+<div id="secondContainer" class="secondContainer" style="display: none" ></div>
+<br>
+<footer ><p>Author: Copyright @ 2021 Paola Tovar Gavilan </p></footer> 
+
+<script src="index.js" type="module"></script>
+  </body>
+</html>
